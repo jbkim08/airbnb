@@ -1,0 +1,83 @@
+/* 초기화 */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+#main-page {
+  background: url(img/bg.jpg) no-repeat center;
+  background-size: cover;
+  height: 75vh;
+}
+
+.main-navi{
+  background-color: white;
+  padding: 0px 80px;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.main-navi .logo{
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #ff385c;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-bottom: 7px;
+}
+
+.logo i {
+  font-size: 40px;
+  position: relative;
+  top: 6px;
+}
+
+.main-navi .search .button {
+  width: 300px;
+  height: 48px;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  outline: none;
+  font-weight: 700;
+}
+.main-navi .search .button div{
+  padding-left: 10px;
+}
+
+.main-navi .search .button:hover{
+  box-shadow: rgba(0,0,0,0.15) 0px 2px 8px;
+}
+
+.main-navi .search .button .rButton {
+  background-color: #ff385c;
+  color: white;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+.main-navi .search .button .rButton i{
+  font-size: 10px;
+}
+
+.main-navi .menu {
+  display: flex;
+  justify-content: space-around;
+}
