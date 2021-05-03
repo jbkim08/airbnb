@@ -4,4 +4,4 @@
 + 기본 CSS 연습
 + flex , grid 연습
 
-[링크](https://github.com/jbkim08/airbnb/)
+[링크](https://jbkim08.github.io/airbnb/)
